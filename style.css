@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "myfont";
+  src: url(./Press_Start_2P/PressStart2P-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "myfont";
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myCanvas {
+  border: 5px solid rgb(22, 97, 171);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#myScore,
+#myScore2 {
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: 1rem;
+}
+
+#Start {
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(110, 199, 228);
+  font-size: 1.15rem;
+  display: block;
+  margin-top: 15px;
+}/*# sourceMappingURL=style.css.map */
